@@ -1,0 +1,157 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    background-image: url(images/background.png);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24pt; 
+}
+
+dt
+{
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+#topBanner
+{
+    background-image: url(images/bannerbackground.png);
+    text-align: center;
+}
+
+#middlePart
+{
+    margin: 0 auto;
+    width: 800px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: gray;
+    overflow: hidden;
+
+}
+
+#rottenSection
+{
+    background-image: url(images/rottenbackground.png);
+    height: 83px;
+}
+
+#rottenRating
+{
+    font-size: 48pt;
+    font-weight: bolder;
+    color: red;
+    vertical-align: 13px;
+}
+
+#rottenAmount
+{
+    color: white;
+    vertical-align: 13px;
+}
+
+#leftPartofMiddle
+{
+    float: left;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.leftQuoteForm
+{
+    position: relative;
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.quoteImageStyle
+{
+    float: left;
+    margin-right: 5px;
+}
+
+.leftQuote
+{
+    background-color: #E1D697;
+    padding: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+
+.leftName
+{
+    margin-top: 12px;
+    margin-bottom: 3em;
+}
+
+.company
+{
+    font-style: italic;
+}
+
+.rightQuoteForm
+{
+    position: relative;
+    width: 47%;
+    float: right;
+    margin-right: 2%;
+}
+
+.rightQuote
+{
+    background-color: #E1D697;
+    padding: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    font-weight: bolder;
+}
+
+#rightPartofMiddle
+{
+    float: right;
+    width: 250px;
+    background-color: #A2B964;
+    margin: 0 auto;
+}
+
+#wordsPosition
+{
+    margin: 10px;
+}
+
+.term
+{
+    margin: 10px;
+    font-weight: bolder;
+}
+
+#bottom
+{
+    clear: both;
+    text-align: center;
+    background-color: #A2B964;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.icon
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
