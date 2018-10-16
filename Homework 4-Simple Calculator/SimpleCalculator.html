@@ -1,0 +1,64 @@
+<!--17343107 Wang Mingye Homework 4-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <link href="images/titleIcon.jpeg" type="image/jpeg" rel="shortcut icon">
+    <script src="function.js"></script>
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="mainBody">
+        <div id="calculatorBody">
+            <div>
+                <input type="text" name="equation" id="displayArea" value="" />
+            </div>
+            <div id="Function_button">
+                <div class="buttons">
+                    <table>
+                        <tr>
+                            <th><input type="button" value="7" onclick="input(7)"></th>
+                            <th><input type="button" value="8" onclick="input(8)"></th>
+                            <th><input type="button" value="9" onclick="input(9)"></th>
+                            <th><input type="button" value="/" onclick="input('/')"></th>
+                        </tr>
+                        <tr>
+                            <th><input type="button" value="4" onclick="input(4)"></th>
+                            <th><input type="button" value="5" onclick="input(5)"></th>
+                            <th><input type="button" value="6" onclick="input(6)"></th>
+                            <th><input type="button" value="*" onclick="input('*')"></th>
+                        </tr>
+                        <tr>
+                            <th><input type="button" value="1" onclick="input(1)"></th>
+                            <th><input type="button" value="2" onclick="input(2)"></th>
+                            <th><input type="button" value="3" onclick="input(3)"></th>
+                            <th><input type="button" value="-" onclick="input('-')"></th>
+                        </tr>
+                        <tr>
+                            <th><input type="button" value="0" onclick="input(0)"></th>
+                            <th><input type="button" value="." onclick="input('.')"></th>
+                            <th><input type="button" value="←" onclick="backspace()"></th>
+                            <th><input type="button" value="+" onclick="input('+')"></th>
+                        </tr>
+                        <tr>
+                            <th><input type="button" value="(" onclick="input('(')"></th>
+                            <th><input type="button" value=")" onclick="input(')')"></th>
+                            <th><input type="button" value="CE" onclick="clearAll()"></th>
+                            <th><input type="button" value="=" onclick="compute()"></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
