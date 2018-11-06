@@ -1,0 +1,235 @@
+h1,
+h2,
+h3 
+{
+  font-family: "Century Gothic", sans-serif;
+}
+
+h1 
+{
+  font-size: 25pt;
+  text-align: center;
+}
+
+h2 
+{
+  text-align: center;
+  font-size: 15pt;
+  font-weight: normal;
+}
+
+h3 
+{
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+body 
+{
+  position: relative;
+  width: 800px;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mainBody 
+{
+  margin: auto auto;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.walls,
+#wallExample 
+{
+  margin: 0;
+  z-index: 999;
+  background-image: url("images/trees.jpg");
+  background-size: 200px 200px;
+  background-repeat: repeat;
+}
+
+.wallsFail 
+{
+  background-color: red;
+  opacity: 0.8;
+}
+
+#wallTopLeft 
+{
+  position: relative;
+  top: 1px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  width: 150px;
+  height: 200px;
+}
+
+#wallTopRight 
+{
+  position: relative;
+  top: -201px;
+  left: 348px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  width: 150px;
+  height: 200px;
+  overflow: hidden;
+}
+
+#wallTopMiddle 
+{
+  position: relative;
+  top: -403px;
+  border-top: 1px solid black;
+  width: 200px;
+  height: 60px;
+  margin: auto auto;
+}
+
+#wallMiddle 
+{
+  position: relative;
+  margin: auto auto;
+  top: -411px;
+  border-bottom: none;
+  width: 100px;
+  height: 151px;
+}
+
+#wallBottom 
+{
+  position: relative;
+  top: -210px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 498px;
+  height: 50px;
+}
+
+#wallExample 
+{
+  border: 1px solid black;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -60px;
+  width: 100px;
+  height: 25px;
+  background-image: url("images/trees.jpg");
+  background-size: 150px 150px;
+  background-repeat: repeat;
+}
+
+#start,
+#end 
+{
+  text-align: center;
+  color: black;
+  font-size: 20pt;
+  font-weight: bolder;
+  font-family: "Century Gothic", sans-serif;
+}
+
+#start 
+{
+  border: 1px solid black;
+  position: relative;
+  top: -460px;
+  background-color: #84ff83;
+  width: 35px;
+  height: 39px;
+  cursor: pointer;
+  z-index: 1000;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#end 
+{
+  border: 1px solid black;
+  position: relative;
+  top: -506px;
+  left: 463px;
+  background-color: #8885ff;
+  width: 35px;
+  height: 39px;
+  padding-top: 5px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.roads 
+{
+  background-color: white;
+  background-image: url("images/water.png");
+  background-size: 200px 30px;
+  background-repeat: repeat;
+  z-index: 999;
+  cursor: pointer;
+}
+
+#roadLeftHorizontal 
+{
+  position: relative;
+  top: -529px;
+  left: 35px;
+  width: 165px;
+  height: 23px;
+}
+
+#roadLeftVertical 
+{
+  position: relative;
+  top: -679px;
+  left: 152px;
+  width: 48px;
+  height: 106px;
+}
+
+#roadTop 
+{
+  position: relative;
+  top: -830px;
+  left: 150px;
+  width: 200px;
+  height: 47px;
+}
+
+#roadRightVertical 
+{
+  position: relative;
+  top: -830px;
+  left: 300px;
+  width: 49px;
+  height: 145px;
+}
+
+#roadRightHorizontal 
+{
+  position: relative;
+  top: -877px;
+  left: 349px;
+  width: 115px;
+  height: 30px;
+}
+
+.text 
+{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: -60px;
+  width: 600px;
+}
+
+#cheat 
+{
+  position: relative;
+  width: 30px;
+  height: 60px;
+  left: 650px;
+  top: -105px;
+}

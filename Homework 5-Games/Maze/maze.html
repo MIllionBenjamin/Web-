@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="mazeStyle.css">
+    <link rel="icon" href="images/titleIcon.jpg">
+    <script src="mazeFunction.js"></script>
+    <title>Mouse Maze</title>
+</head>
+
+<body>
+    <h1>The Amazing Mouse Maze!</h1>
+    <h2>Move your mouse over the "S" to begin.</h2>
+    <div id="gameInfo">
+        <h2>Move mouse to "S" First!</h2>
+    </div>
+
+    <div id="mainBody">
+        <div id="wallTopLeft" class="walls"></div>
+        <div id="wallTopRight" class="walls"></div>
+        <div id="wallTopMiddle" class="walls"></div>
+        <div id="wallBottom" class="walls"></div>
+        <div id="wallMiddle" class="walls"></div>
+
+        <div id="start">S</div>
+        <div id="end">E</div>
+
+        <div id="roadLeftHorizontal" class="roads"></div>
+        <div id="roadLeftVertical" class="roads"></div>
+        <div id="roadTop" class="roads"></div>
+        <div id="roadRightVertical" class="roads"></div>
+        <div id="roadRightHorizontal" class="roads"></div>
+    </div>
+
+    <div id="cheat"></div>
+
+    <div class="text">
+        <h3>The object of this game is to guide the mouse cursor through the start area and get to the end area. Be
+            sure to avoid the walls:</h3>
+    </div>
+
+    <div id="wallExample"></div>
+
+    <div class="text">
+        <h3>Good luck!</h3>
+    </div>
+
+</body>
+
+</html>
