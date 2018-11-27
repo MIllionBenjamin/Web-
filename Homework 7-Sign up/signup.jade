@@ -1,0 +1,47 @@
+doctype html
+html
+    head
+        title Sign up
+        link(rel='stylesheet' href='style.css')
+        link(rel='icon' href='images/icon1.png')
+        script(type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js')
+        script(type='text/javascript' src='validator.js')
+        script(type='text/javascript' src='signup.js')
+
+    
+    body
+        h1 Rigster a User
+            form(method='post')
+                if error
+                    div.error != error    
+                div.username1
+                    div.username
+                        label(for='username') Username
+                        input(id='username' name='username' value=user.username)
+                        div.errorformat
+                            span.error
+                
+                div.sid1
+                    div.sid
+                        label(for="sid") StudentID
+                        input(id="sid" name="sid" value=user.sid)
+                        div.errorformat
+                            span.error
+
+                div.phone1
+                    div.phone
+                        label(for="phone") Phone
+                        input(id="phone" name="phone" value=user.phone)
+                        div.errorformat
+                            span.error
+
+                div.email1
+                    div.email
+                        label(for="email") Email
+                        input(id="email" name="email" value=user.email)
+                        div.errorformat
+                            span.error
+
+                div.buttons
+                    input.button.reset(type='reset' value='Reset')
+                    input.button.submit(type='submit' value='Submit')

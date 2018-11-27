@@ -1,0 +1,128 @@
+body
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    background-image: url("images/bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    position: fixed;
+}
+
+h1
+{
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+}
+
+
+form 
+{
+	width: 70%;
+	margin-left: 200px;
+}
+
+form div:not(.error)
+{
+    height: 70px;
+}
+
+form .username1{
+    height: 80px !important;
+}
+
+form .sid1{
+	height: 80px !important;
+}
+
+form .phone1{
+	height: 80px !important;
+}
+
+form .email1{
+	height: 80px !important;
+}
+
+form label 
+{
+	display: inline-block;
+	width: 60px;
+	text-align: right;
+	padding-right: 100px;
+}
+
+form input
+{
+	width: 360px;
+	border: 0px solid #924526;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin: 20px 20px;
+	margin-left: 20px;
+	font-size: 25px;
+	color: white;
+	overflow: hidden;
+    direction: ltr;
+}
+
+form span.error
+{
+    opacity: 0.8;
+    color: red;
+    z-index: 100000;
+    font-size: 20px;
+    margin-left: 50px;
+}
+div.errorformat
+{
+    text-align: left;
+    margin-left: 355px;
+    margin-top: -30px;
+
+}
+
+div.buttons {
+	text-align: center;
+}
+
+form input.button 
+{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 5px;
+    color: rgba(252, 247, 247, 0.9);
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+    transition: all 0.2s;
+    outline: none;
+}
+
+.button:hover 
+{
+	color: #68838B;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.95;
+    outline: none;
+}
+
+.button:active
+{
+    background-color: #7498D4;
+    color: white;
+}
+
+p
+{
+    text-align: center;
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
