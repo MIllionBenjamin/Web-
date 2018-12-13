@@ -1,0 +1,246 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+ul, li{
+  list-style: none;
+}
+
+span{
+  font-family: sans-serif;
+}
+
+#at-plus-container,
+#bottom-positioner,
+#info-bar,
+#control-ring li,
+#at-plus-container:hover,
+#at-plus-container:hover .apb,
+#at-plus-container:hover .icon,
+#at-plus-container:hover #bottom-positioner,
+#at-plus-container:hover #info-bar 
+#at-plus-container:hover #message{
+    -webkit-transition: all .6s;
+         -o-transition: all .6s;
+            transition: all .6s;
+}
+
+#at-plus-container{
+  position: fixed;
+  bottom: 100px;
+  left:  50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+#at-plus-container:hover{
+  position: fixed;
+  bottom: 0;
+  left: calc(50% - 100px);
+  width: 200px;
+  height: 300px;
+}
+
+#bottom-positioner{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#at-plus-container:hover .button {
+  -webkit-transition: all .6s;
+  -o-transition: all .6s;
+  transition: all .6s;
+  opacity: 1;
+}
+
+#button .apb{
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #989FCF;
+  bottom: 100px;
+  left: calc(50% - 8px);
+  -webkit-transition: all 0.3s 0.4s;
+  -o-transition: all 0.3s 0.4s;
+  transition: all 0.3s 0.4s;
+}
+
+#at-plus-container:hover #button .apb{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 88px;
+  left: calc(50% - 20px);
+  border-radius: 50%;
+  background-color: rgba(48,63,159,1);
+}
+
+#button .icon{
+  background-image: url("../assets/images/atplus_white.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 15px;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s 0.4s;
+  -o-transition: all 0.3s 0.4s;
+  transition: all 0.3s 0.4s;
+}
+
+#at-plus-container:hover #button .icon{
+  background-image: url("../assets/images/atplus_green.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 30px;
+}
+
+#info-bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 130px;
+  color: #39DB9F;
+  overflow: hidden;
+  border-radius: 50%;
+  /*background-color: #7E7E7E;*/
+  opacity: 0;
+}
+
+#info-bar div{
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#at-plus-container:hover #info-bar{
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  line-height: 130px;
+  top: 10px;
+  left: 38px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+#info-bar .info:hover{
+  cursor: pointer;
+}
+
+#info-bar .info {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+}
+
+#control-ring li{
+  line-height: 32px;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 20px;
+  color: #39DB9F;
+  position: absolute;
+  top: -3px;
+  left: -10px;
+  width: 32px;
+  height: 32px;
+  opacity: 0;
+}
+
+.able{
+  background-color: #303F9F;
+}
+
+.disable{
+  background-color: #7E7E7E;
+}
+
+#at-plus-container:hover #control-ring li{
+  position: absolute;
+  top: 165px;
+  left: 90px;
+}
+
+#control-ring li:hover{
+  cursor: pointer;
+}
+
+#at-plus-container:hover #control-ring li:nth-child(1){
+  margin-top: -37px;
+  margin-left: -70px;
+  opacity: 1;
+}
+
+#at-plus-container:hover #control-ring li:nth-child(2){
+  margin-top: 7px;
+  margin-left: -80px;
+  opacity: 1;
+}
+
+#at-plus-container:hover #control-ring li:nth-child(3){
+  margin-top: 50px;
+  margin-left: -62px;
+  opacity: 1;
+}
+
+#control-ring .unread{
+  line-height: 17px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  margin-top: -3px;
+  margin-left: 1px;
+  text-align: center;
+  color: #E8D6DC;
+  font-size: 10pt;
+}
+
+#at-plus-container:hover #control-ring li:nth-child(4){
+  margin-top: 73px;
+  margin-left: -20px;
+  opacity: 1;
+}
+
+#at-plus-container:hover #control-ring li:nth-child(5){
+  margin-top: 70px;
+  margin-left: 25px;
+  opacity: 1;
+}
+
+#message{
+  position: absolute;
+  left: -7px;
+  top: -14px;
+  border: 2px solid pink;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #7E7E7E;
+  width: 20px;
+  height: 20px;
+  transition: all 0.6s;
+  opacity: 0;
+}
+
+#at-plus-container:hover #message{
+  width: 300px;
+  height: 200px;
+  margin-left: -45px;
+  margin-top: -220px;
+  opacity: 1;
+}

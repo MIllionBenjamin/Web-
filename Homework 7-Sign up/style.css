@@ -1,4 +1,4 @@
-body
+html, body
 {
     top: 0;
     left: 0;
@@ -75,13 +75,16 @@ form span.error
     z-index: 100000;
     font-size: 20px;
     margin-left: 50px;
+    width: 1000px;
+    position: relative;
 }
 div.errorformat
 {
+    position: relative;
     text-align: left;
     margin-left: 355px;
     margin-top: -30px;
-
+    width: 1000px;
 }
 
 div.buttons {

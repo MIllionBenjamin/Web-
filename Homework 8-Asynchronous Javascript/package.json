@@ -1,0 +1,12 @@
+{
+  "name": "web08",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "617572667@qq.com",
+  "license": "ISC"
+}
